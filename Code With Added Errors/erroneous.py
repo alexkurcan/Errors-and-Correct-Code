@@ -8,7 +8,7 @@ def odd_or_even(userinput):
     else:
         return "odd"
 
-userinput_number = int(input("Enter any number:"))
+userinput_number = int(input("Enter any number: "))
 print(odd_or_even(userinput_number))
 
 # # Write a program in Python that checks if a person is eligible to vote based on their age.
@@ -38,7 +38,7 @@ print(pos_neg_zero(user_input))
 #
 # # Write a program in Python that prints numbers from 1 to 10 using a for loop.
 i =" "
-for i in range(1,11):
+for i in range(1,10):
     print(i)
 
 # Write a program in Python that prints numbers from 1 to 5 using a while loop.
