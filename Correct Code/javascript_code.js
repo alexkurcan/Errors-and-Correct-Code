@@ -1,6 +1,6 @@
 // Challenge 1 - Control Structures (if-else statements)
 
-// Write a program in JaveScipt that checks if a number is even or odd.
+// Write a program in JavaScript that checks if a number is even or odd.
 function isEvenOrOdd(x) {
     return(x % 2 ==0);
 }
@@ -8,7 +8,7 @@ function isEvenOrOdd(x) {
 let x = 22;
 isEvenOrOdd(x) ? console.log("Even") : console.log("Odd");
 
-// Write a program in JaveScipt that checks if a person is eligible to vote based on their age.
+// Write a program in JavaScript that checks if a person is eligible to vote based on their age.
 
 function checkVotingEligibility(age) {
     if (age >= 18) {
@@ -23,7 +23,7 @@ age = parseInt(age);
 
 checkVotingEligibility(age);
 
-// Write a program in JaveScipt that checks if a number is positive, negative, or zero, and displays the appropriate message.
+// Write a program in JavaScript that checks if a number is positive, negative, or zero, and displays the appropriate message.
 function checkNumberNegativeOddEven(num) {
     if (num > 0) {
       console.log("The number is positive.");

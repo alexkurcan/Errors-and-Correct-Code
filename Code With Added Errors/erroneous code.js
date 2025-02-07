@@ -3,7 +3,7 @@
 
 // Write a program in JaveScipt that checks if a number is even or odd.
 function isEvenOrOdd(x) {
-    return(x % 2 ==0);
+    return(x % 2 == 0);
 }
 
 let x = 22;
