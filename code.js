@@ -6,7 +6,7 @@ function isEvenOrOdd(x) {
 }
 
 let x = 22;
-isEvenOrOdd(x) ? console.log("Even") : console.log("Odd")
+isEvenOrOdd(x) ? console.log("Even") : console.log("Odd");
 
 // Write a program in JaveScipt that checks if a person is eligible to vote based on their age.
 
@@ -34,7 +34,6 @@ function checkNumberNegativeOddEven(num) {
     }
   }
   
-  // Example usage:
   let userinput = prompt("Enter a number: ");
   userinput = parseFloat(userinput);
   checkNumberNegativeOddEven(userinput);
