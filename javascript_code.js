@@ -44,3 +44,51 @@ function checkNumberNegativeOddEven(num) {
 for (let x = 1; x <= 10; x++) {
     console.log(x);
   }
+
+// 3c: Number of vowels
+
+function getCount(str) {
+  let vowelCount = 0
+  const vowels = ['a', 'e', 'i', 'o', 'u']
+  for (let char of str) {
+      if (vowels.includes(char)) {
+          vowelCount ++
+      }
+  }
+  console.log(vowelCount)
+}
+
+getCount("abracadabra")
+
+// 4a: List of fruits
+
+let fruit = ['grapefruit', 'kiwi', 'grape'];
+for (let i = 0; i < fruit.length; i++) {
+  console.log(fruit[i]);
+}
+// 4b: Student name and grade
+
+let studentGrades = {
+  "Sham": 100,
+  "Alex": 100,
+  "Khani": 100
+};
+
+for (let student in studentGrades) {
+  console.log(student + ": " + student) //  console.log(student + ": " + studentGrades[student])
+}
+// 4c: Highest number in array
+
+function highestNum(n) {
+  let high = n[0];
+  for (let i = 1; i < n.length; i ++) {
+      if (n[i] > high) {
+          high = n[i];
+      }
+  }
+  return high;
+}
+
+let numarray = [1, 5, 17, 200, 2, 9, 37, 91];
+console.log(highestNum(numarray));
+

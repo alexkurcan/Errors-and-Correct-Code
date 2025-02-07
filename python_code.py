@@ -64,7 +64,7 @@ def greeting_by_username(username):
 username = input("Enter your username: ")
 print(greeting_by_username(username))
 
-# Write a function in Python that checks if a number is even or odd.
+# # Write a function in Python that checks if a number is even or odd.
 def even_or_odd(x):
     if x % 2 == 0:
         return 'even'
@@ -94,7 +94,7 @@ fruits = ['grapes', 'apples', 'grapfruit', 'oranges', 'banana', "kiwi", "dragonf
 for i in fruits:
     print(i)
 
-#Write a program in Python that stores student names and their grades in a dictionary, and prints each student's name and grade.
+# #Write a program in Python that stores student names and their grades in a dictionary, and prints each student's name and grade.
 students_in_class = {
     "Shimmer Sham" : 100,
     "Khani Lyan" : 100,
@@ -106,9 +106,10 @@ for key, value in students_in_class.items():
     print(f"{key}: {value}")
 
 # # Create an array of numbers in Python and write a function to find the highest number in the array
+numbers = [1, 5, 1000, 99, 100, 80, 82]
+def finding_largest_number(num):
+    num.sort()
+    largest = num[-1]
+    return largest
 
-def sorting_numbers(x):
-    return x.sort
-
-random_array = [1, 2, 3, 100, 1999, 19, 91, 29]
-print(sorting_numbers(random_array))
+finding_largest_number(numbers)
